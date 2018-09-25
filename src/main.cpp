@@ -23,6 +23,9 @@
     Main author: luc lebosse
 
 */
+
+//#define ARDUINO_ARCH_ESP8266
+
 //be sure correct IDE and settings are used for ESP8266 or ESP32
 #if !(defined( ARDUINO_ARCH_ESP8266) || defined(ARDUINO_ARCH_ESP32))
 #error Oops!  Make sure you have 'ESP8266 or ESP32' compatible board selected from the 'Tools -> Boards' menu.

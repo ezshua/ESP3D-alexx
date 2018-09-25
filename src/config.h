@@ -184,8 +184,8 @@ extern "C" {
 #endif
 #include "wificonf.h"
 //version and sources location
-#define FW_VERSION "1.0"
-#define REPOSITORY "https://github.com/luc-github/ESP3D"
+#define FW_VERSION "1.01"
+#define REPOSITORY "https://github.com/ezshua/ESP3D-alexx"
 
 typedef enum {
     NO_PIPE = 0,
